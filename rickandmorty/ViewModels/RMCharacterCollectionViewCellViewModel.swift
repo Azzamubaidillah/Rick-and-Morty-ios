@@ -21,10 +21,10 @@ final class RMCharacterCollectionViewCellViewModel {
         characterImageUrl: URL?
     ) {
         self.characterName = characterName
-        self.characterStatus = characterStatus
+        self.characterStatus = "Status: \(characterStatus)"
         self.characterImageUrl = characterImageUrl
     }
-    
+
     public func fetchImage(completion: @escaping (Result<Data, Error>) -> Void) {
         // TODO: Abstrach to imageManager
         guard let url = characterImageUrl else {
