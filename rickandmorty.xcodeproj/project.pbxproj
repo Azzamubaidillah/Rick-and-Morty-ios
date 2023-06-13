@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8703CF2C2A38CD0200D7492C /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703CF2B2A38CD0200D7492C /* RMImageLoader.swift */; };
 		87F1D0462A35C414009C3792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1D0452A35C414009C3792 /* AppDelegate.swift */; };
 		87F1D0482A35C414009C3792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1D0472A35C414009C3792 /* SceneDelegate.swift */; };
 		87F1D04A2A35C414009C3792 /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1D0492A35C414009C3792 /* RMTabViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8703CF2B2A38CD0200D7492C /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 		87F1D0422A35C414009C3792 /* rickandmorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rickandmorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F1D0452A35C414009C3792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87F1D0472A35C414009C3792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		87F1D05D2A35C610009C3792 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				8703CF2B2A38CD0200D7492C /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				87F1D0702A360335009C3792 /* RMService.swift in Sources */,
 				87F1D0482A35C414009C3792 /* SceneDelegate.swift in Sources */,
 				87F1D07C2A3710A5009C3792 /* RMCharacterListViewViewModel.swift in Sources */,
+				8703CF2C2A38CD0200D7492C /* RMImageLoader.swift in Sources */,
 				87F1D08B2A37600B009C3792 /* RMCharacterDetailViewViewModel.swift in Sources */,
 				87F1D06E2A35D3CD009C3792 /* RMSettingsViewController.swift in Sources */,
 				87F1D0612A35D2A6009C3792 /* RMLocation.swift in Sources */,
